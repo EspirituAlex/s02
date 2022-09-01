@@ -1,0 +1,23 @@
+[
+    {
+        "_id" : "6310874b279db0f136b178f6",
+        "username" : "friendlySpider",
+        "firstName" : "Peter",
+        "lastName" : "Parker",
+        "email" : "spidermoneky@gmail.com",
+        "password" : "spiderman",
+        "mobileNumber" : 9112345678,
+        "isAdmin" : false
+    },
+
+    {
+        "_id" : "6310879b279db0f136b1790e",
+        "username" : "madHulk",
+        "firstName" : "Bruce",
+        "lastName" : "Banner",
+        "email" : "greenangry@gmail.com",
+        "password" : "strong",
+        "mobileNumber" : 9221234567,
+        "isAdmin" : false
+    }
+]

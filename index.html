@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name ="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Activity</title>
+</head>
+
+<body>
+    <script type="text/javascript">
+        let enroll = `[
+            {
+                "_id" : "6310874b279db0f136b178f6",
+                "username" : "friendlySpider",
+                "firstName" : "Peter",
+                "lastName" : "Parker",
+                "email" : "spidermoneky@gmail.com",
+                "password" : "spiderman",
+                "mobileNumber" : 9112345678,
+                "isAdmin" : false,
+                "enrollments": [
+                    {
+                        "courseId": "6310885a279db0f136b17947",
+                        "courseName": "Quantum Physics",
+                        "isPaid": true,
+                        "dateEnrolled": "09-01-2022"
+                    }
+                ]
+            },
+            {
+                "_id" : "6310879b279db0f136b1790e",
+                "username" : "madHulk",
+                "firstName" : "Bruce",
+                "lastName" : "Banner",
+                "email" : "greenangry@gmail.com",
+                "password" : "strong",
+                "mobileNumber" : 9221234567,
+                "isAdmin" : false,
+                "enrollments": [
+                    {
+                        "courseId": "631088a9279db0f136b17959",
+                        "courseName": "Team Sports",
+                        "isPaid": true,
+                        "dateEnrolled": "09-01-2022"
+                    }
+                ]
+            }
+        ]`;
+    
+        console.log(enroll);
+        console.log(JSON.parse(enroll));
+
+        let courses = `[
+            {
+                "_id" : "6310885a279db0f136b17947",
+                "name" : "Science",
+                "description" : "Quantum Physics",
+                "price" : 10000,
+                "slots" : 20,
+                "schedule" : "Monday-Friday",
+                "instructor" : "Iron Man",
+                "isActive" : true,
+                "enrollees": [
+                    {
+                        "userId": "6310874b279db0f136b178f6",
+                        "userName": "friendlySpider",
+                        "isPaid": true,
+                        "dateEnrolled": "09-01-2022"
+                    }
+
+                ]
+            },
+            
+            {
+                "_id" : "631088a9279db0f136b17959",
+                "name" : "PE",
+                "description" : "Team sports",
+                "price" : 10000,
+                "slots" : 15,
+                "schedule" : "Monday-Wednesday",
+                "instructor" : "Captain America",
+                "isActive" : true,
+                "enrollees": [
+                    {
+                        "userId": "6310879b279db0f136b1790e",
+                        "userName": "madHulk",
+                        "isPaid": true,
+                        "dateEnrolled": "09-01-2022"
+                    }
+
+                ]
+            }
+        ]`
+
+        console.log(courses);
+
+        console.log(JSON.parse(courses));
+
+    </script>
+
+</body>
+
+</html>

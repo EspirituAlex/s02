@@ -1,0 +1,23 @@
+[
+    {
+        "_id" : "6310885a279db0f136b17947",
+        "name" : "Science",
+        "description" : "Quantum Physics",
+        "price" : 10000,
+        "slots" : 20,
+        "schedule" : "Monday-Friday",
+        "instructor" : "Iron Man",
+        "isActive" : true
+    },
+    
+    {
+        "_id" : "631088a9279db0f136b17959",
+        "name" : "PE",
+        "description" : "Team sports",
+        "price" : 10000,
+        "slots" : 15,
+        "schedule" : "Monday-Wednesday",
+        "instructor" : "Captain America",
+        "isActive" : true
+    }
+]
